@@ -1,0 +1,49 @@
+ident
+rotate
+x 20
+rotate
+y 20
+move
+150 200 0
+sphere
+100 150 0 100
+torus
+100 100 0 30 140
+box
+10 50 0 250 300 125
+#left arm
+box
+-80 -40 0 80 40 50
+#right arm
+box
+250 -40 0 80 40 50
+#left fingers
+box
+-100 -38 -23 20 10 10
+box
+-100 -48 -23 20 10 10
+box
+-100 -58 -23 20 10 10
+box
+-100 -68 -23 20 10 10
+box
+-75 -40 -23 15 -30 10
+#right fingers
+box
+330 -48 -23 20 10 10
+box
+330 -58 -23 20 10 10
+box
+330 -68 -23 20 10 10
+box
+330 -78 -23 20 10 10
+box
+300 -40 -23 15 -30 10
+sphere
+125 -40 0 20
+sphere
+125 -100 0 20
+sphere
+125 -160 0 20
+apply
+display
